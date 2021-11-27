@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import EditIcon from "@mui/icons-material/Edit";
+import { Delete, Edit} from "@material-ui/icons";
 
 class ContactAdmin extends Component {
   constructor(props) {
@@ -119,25 +120,26 @@ class ContactAdmin extends Component {
               <div className="featuredItem">
                 <div key={data.id_contacto}> </div>
                 
-                <div>{data.nombre}</div>
-                <div>{data.email}</div>
-                <div> {data.telefono}</div>
-                <div> {data.asunto}</div>
-                <div> {data.mensaje}</div>
+                <div>Nombre completo: {data.nombre} </div>
+                <div>Correo electronico: {data.email}</div>
+                <div> Numero de telefono: {data.telefono}</div>
+                <div> Asunto: {data.asunto}</div>
+                <div> Mensaje: {data.mensaje}</div>
 
                 <div>
                   <div key={data.id_contacto}>
                     <button
-                      className="actionNosotros"
+                      className="btn btn-dark btn-outline-dark botonBorrarContacto"
                       onClick={() => this.borrarContacto(data.id_contacto)}
                     >
-                      Eliminar
+                      <Delete />
                     </button>
+                    &nbsp;&nbsp;&nbsp;
                     <button
-                      className="actionNosotros"
+                      className="btn btn-dark btn-outline-dark botonEditarContacto"
                       onClick={() => this.abrirVentanaEditar(data)}
                     >
-                      Editar
+                      <EditIcon/>
                     </button>
                   </div>
                 </div>

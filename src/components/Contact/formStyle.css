@@ -29,6 +29,7 @@ ul {
 .logo {
   text-align: center;
   font-size: 3em;
+  color: #fff;
 }
 
 .logo span {
@@ -120,6 +121,7 @@ ul {
 /* CONTACT INFO */
 .contact-info {
   background: #000;
+  color: #fff;
 }
 
 .contact-info h4,

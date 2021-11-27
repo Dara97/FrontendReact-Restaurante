@@ -146,7 +146,7 @@ class Servicios extends Component {
                 return (
                   <>
                     <div class="col-4" id="servicios_fd">
-                      <div class="card card-border" style={{ width: "20rem" }}>
+                      <div class="card card-border" style={{ width: "18rem" }}>
                         <img
                           src={data.imagen_servicios}
                           class="card-img-top"

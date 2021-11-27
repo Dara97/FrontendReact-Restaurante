@@ -26,7 +26,7 @@ function Dashboard() {
             <Inicio />
           </Route>
           <Route path="/users">
-            <UserList />
+            <ClientList />
           </Route>
           <Route path="/clients">
             <ClientList />

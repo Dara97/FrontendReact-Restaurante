@@ -102,10 +102,10 @@ class formulario extends React.Component {
   }
   render() {
     return (
-      <div className="container-formulario">
+      <div className="container-formulario" style={{ paddingBottom: "100px"}}>
         <div className="content">
           <h1 className="logo">
-            <span>Sal&Salsa</span>
+            Contactanos <span>Sal&Salsa</span>
           </h1>
 
           <div className="contact-wrapper animated bounceInUp">

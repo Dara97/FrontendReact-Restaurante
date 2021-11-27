@@ -9,7 +9,7 @@
 .btn,
 .agregarCarrito {
   width: 200px;
-  font-family: "Roboto Slab", serif;
+  /* font-family: "Roboto Slab", serif; */
   background-image: linear-gradient(
     135deg,
     #fff783 0,
@@ -26,7 +26,7 @@
 .comida {
   text-align: center;
   color: white;
-  font-family: "Suez One", serif;
+ /*  font-family: "Suez One", serif; */
 }
 h5 {
   color: black;
@@ -60,7 +60,7 @@ div {
 
 h3,
 h2 {
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive; */
   color: white;
 }
 .addProduct {
@@ -79,4 +79,8 @@ h6 {
 
 table {
   display: none !important;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
 }

@@ -96,7 +96,7 @@ export const OrderInfo = () => {
             </div>
             <div className="order-info__form-group">
               <div className="order-info__form-pair">
-                <label htmlFor="">Direccion</label>
+                <label htmlFor="">Dirección</label>
                 <input
                   type="text"
                   name="addres"
@@ -117,9 +117,10 @@ export const OrderInfo = () => {
               </div>
             </div>
             <div className="order-info__form-group">
-              <div className="order-info_form-pair form_only">
+
+              <div className="order-info__form-pair form_only">
                 <label htmlFor="">Comentarios o solicitudes especiales</label>
-                <input
+                <input style={{width:"600px"}}
                   type="text"
                   name="comment"
                   id=""

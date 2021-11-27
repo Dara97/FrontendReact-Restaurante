@@ -31,9 +31,9 @@ export const Home = () => {
       </section>
 
       <section id="recomendados">
-        <div className="container content-center contenedorRecomendados">
+        <div className="container contenedorRecomendados">
           <h1 className="title">Descubre nuestras especialidades</h1>
-          <div className="row g-4">
+          <div className="row" style={{ flexWrap: "nowrap", justifyContent: "center" }}>
             {recomendados.map((data) => (
               <Recomendados img={data.img} titulo={data.titulo}></Recomendados>
             ))}

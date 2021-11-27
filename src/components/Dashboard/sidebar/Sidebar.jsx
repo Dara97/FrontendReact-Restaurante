@@ -43,10 +43,10 @@ export default function Sidebar() {
                 Servicios
               </li>
             </Link>
-            <li className="sidebarListItem">
+            {/* <li className="sidebarListItem">
               <AddAlertSharp className="sidebarIcon" />
               Reservas
-            </li>
+            </li> */}
             <Link to="/contact" className="link">
             <li className="sidebarListItem">
                 <Contacts className="sidebarIcon" />
