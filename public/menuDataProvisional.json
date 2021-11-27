@@ -1,0 +1,103 @@
+ [
+      {
+        "id": 1,
+        "name": "Hamburguesa Especial",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/hamburguesa_especial.png"
+      },
+      {
+        "id": 2,
+        "name": "Hamburguesa de carne",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/hamburguesa_triple_carne.png"
+      },
+      {
+        "id": 3,
+        "name": "Hamburguesa de pan negro",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/hamburguesa_negra.png"
+      },
+   
+      {
+        "id": 4,
+        "name": "Pizza bacon",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/pizza_bacon.png"
+      },
+      {
+        "id": 5,
+        "name": "Pizza de pollo con champiñones",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/pizza_pollo_champiñones.png"
+      },
+      {
+        "id": 6,
+        "name": "Pizza de sushi",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/pizza_sushi.png"
+      },
+    
+      {
+        "id": 7,
+        "name": "Carne a la parrilla",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/carne_parrilla.png"
+      },
+      {
+        "id": 8,
+        "name": "Costillas de cordero",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/costillas_cordero.png"
+      },
+      {
+        "id": 9,
+        "name": "Sushi",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/sushi.png"
+      },
+  
+      {
+        "id": 10,
+        "name": "Ensalada César",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/ensalada_cesar.png"
+      },
+      {
+        "id": 11,
+        "name": "Ensalada griega",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/ensalada_griega.png"
+      },
+      {
+        "id": 12,
+        "name": "Ensalada de pasta",
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt eos. Unde!",
+        "price": 25000,
+        "image": "./images/ensalada_pasta.png"
+      }
+    ]
+  
+  

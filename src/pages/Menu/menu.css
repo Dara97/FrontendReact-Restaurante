@@ -1,0 +1,82 @@
+.fondo-oscuro {
+  background-image: url("../../assets/images/fondo_oscuro.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.btn,
+.agregarCarrito {
+  width: 200px;
+  font-family: "Roboto Slab", serif;
+  background-image: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+}
+
+.alert {
+  z-index: 100;
+}
+.comida {
+  text-align: center;
+  color: white;
+  font-family: "Suez One", serif;
+}
+h5 {
+  color: black;
+}
+p {
+  color: black;
+}
+
+.modal-fade {
+  background-color: black;
+}
+
+#image {
+  width: 320px;
+  height: 300px;
+}
+
+div {
+  text-align: center;
+}
+
+#contact_button {
+  background-color: black;
+}
+#menu_download {
+  text-align: center;
+}
+.fa-dollar-sign {
+  color: white;
+}
+
+h3,
+h2 {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
+.addProduct {
+  color: white;
+}
+.hide,
+.remove {
+  display: none;
+}
+
+h6 {
+  color: white;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 22px;
+}
+
+table {
+  display: none !important;
+}

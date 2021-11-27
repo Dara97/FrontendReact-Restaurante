@@ -1,0 +1,22 @@
+[
+    {
+        "id": "persona1",
+        "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248768/restaurant-images/gerente.jpg",
+        "titulo": "Gerente"
+    },
+    {
+        "id": "persona2",
+        "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248784/restaurant-images/servicio.jpg",
+        "titulo": "Servicio"
+    },
+    {
+        "id": "persona3",
+        "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248784/restaurant-images/chef.jpg",
+        "titulo": "Chef"
+    },
+    {
+        "id": "persona4",
+        "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248777/restaurant-images/mesera.jpg",
+        "titulo": "Mesera"
+    }
+]

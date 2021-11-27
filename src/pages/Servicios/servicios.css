@@ -1,0 +1,49 @@
+#games {
+  background-repeat: repeat-x;
+  background-size: 75%;
+  margin-top: -20px;
+}
+
+#servicios_fd{
+    margin-bottom: 20px;
+}
+/* color borde cartas */
+.card-border {
+  /* border: solid 5px rgb(162, 160, 160); */
+  /* border-radius: 40px; */
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+  /* height: 200px;
+  width: 300px; */
+}
+.card-border:hover {
+  transform: scale(1.05);
+}
+
+.card-body{
+    background-color: black;
+   
+}
+
+.card-body h5{
+    color: azure;
+}
+
+.card-body p{
+    color: azure;
+}
+
+
+.boton-servicios{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(
+      135deg,
+      #fff783 0,
+      #ffdf67 25%,
+      #f9c346 50%,
+      #e8a722 75%,
+      #db8f00 100%
+  ) ;
+  border: none;
+}

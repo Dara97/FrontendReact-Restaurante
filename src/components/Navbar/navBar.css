@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+/*-----------------------------------------Barra de navegacion ---------------------------------*/
+.navbar {
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+  color: #ffff !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  margin-right: 15px;
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: #db8f00;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 3px;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-toggler {
+  background-color: gray;
+}
+
+.navbar-toggler:focus {
+  color: #ffff;
+  outline: none !important;
+}
+
+.title-navbar {
+  background: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}

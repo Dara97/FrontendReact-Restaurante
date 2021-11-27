@@ -1,0 +1,16 @@
+.title-container {
+
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(
+      135deg,
+      #fff783 0,
+      #ffdf67 25%,
+      #f9c346 50%,
+      #e8a722 75%,
+      #db8f00 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }

@@ -1,0 +1,13 @@
+#heroServicios {
+    background-image: url("https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636325215/restaurant-images/fondo_oscuro.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    margin-bottom: 60px;
+    min-height: 500px;
+    color: #ffff;
+}
+
+div .parrafo p{
+margin-top:40px;
+color: #ffff;
+}

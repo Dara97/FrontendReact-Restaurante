@@ -1,0 +1,24 @@
+#hero {
+  background-image: url("../../assets/images/comida3.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  margin-bottom: 60px;
+  min-height: 500px;
+  color: #ffff;
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.content-center .h1-header {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.content-center .title {
+  margin-bottom: 30px;
+}

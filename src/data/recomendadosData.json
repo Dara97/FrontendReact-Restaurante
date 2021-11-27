@@ -1,0 +1,18 @@
+[
+        {
+            "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248781/restaurant-images/pizza_bacon.png",
+            "titulo": "Pizza napolitana"
+        },
+        {
+            "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248774/restaurant-images/costillas_cordero.png",
+            "titulo": "Parrillada"
+        },
+        {
+            "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248771/restaurant-images/ensalada_pasta.png",
+            "titulo": "Pasta vegetariana"
+        },
+        {
+            "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248772/restaurant-images/hamburguesa_especial.png",
+            "titulo": "Burger tres carnes"
+        }
+    ]

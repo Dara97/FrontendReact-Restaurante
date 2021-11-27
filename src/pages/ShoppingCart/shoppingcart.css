@@ -1,0 +1,136 @@
+.carrito-title {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+
+.carrito-title span {
+  background: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.carrito {
+  width: 90%;
+  min-width: 300px;
+  max-width: 1200px;
+  margin: 36px auto 0;
+}
+
+.carrito-items {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.carrito-item {
+  width: max-content;
+  min-width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #fff;
+}
+
+.carrito-item-img {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrito-item-img > img {
+  height: 65%;
+}
+
+.carrito-item-img > p {
+  margin-top: 8px;
+  color: #fff;
+}
+
+.carrito-item-descripcion {
+  width: 380px;
+  height: 100%;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.carrito-item-precio {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.carrito-item-cantidad {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrito-item-cantidad > input {
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.carrito-item-cantidad > button {
+  width: 35px;
+  height: 35px;
+  margin-left: 8px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+
+.carrito-total {
+  width: 100%;
+  height: 90px;
+  min-width: 300px;
+  max-width: 1200px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carrito-total > p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.carrito-total > button {
+  width: 160px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-image: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+}

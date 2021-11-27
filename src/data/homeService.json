@@ -1,0 +1,19 @@
+[
+    {
+        "id": "fiesta",
+        "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248767/restaurant-images/fondo_eventos.jpg"
+    },
+    {
+        "id":"matrimonio",
+        "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248778/restaurant-images/matrimonio.jpg"
+    },
+    {
+        "id":"cena",
+        "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248775/restaurant-images/imagen2.jpg"
+    },
+    {
+        "id":"cumpleaños",
+        "img": "https://res.cloudinary.com/ddqxtzvyw/image/upload/v1636248925/restaurant-images/cumplea%C3%B1os2.jpg"
+    }
+
+]
