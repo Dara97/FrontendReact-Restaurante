@@ -1,5 +1,6 @@
 import "./QuienesSomos.css";
 import React, { Component } from "react";
+// import swal from "sweetalert";
 
 class QuienesSomos extends Component {
   constructor(props) {
@@ -19,19 +20,24 @@ class QuienesSomos extends Component {
       });
   }
 
-  editarEmpleado(id) {
-    fetch("http://localhost:41399/api/nosotros/" + id, {
-      method: "UPDATE",
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        alert("dato editado");
-        this.fetchData();
-      });
-  }
+  // editarEmpleado(id) {
+  //   fetch("http://localhost:41399/api/nosotros/" + id, {
+  //     method: "UPDATE", 
+  //   })
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       this.fetchData();
+  //       swal({
+  //         icon: "success",
+  //         title: "¡Edición exitosa!",
+  //         text: "Nuestra historia se edito con exito.",
+  //       });
+  //       console.log(data + "esta es la data");
+  //     });
+  // }
 
   render() {
-    return this.state.datos.map((data) => {
+    return this.state.datos.map((data) => { 
       return (
               <section id="historia">
           <div className="container">
@@ -41,10 +47,10 @@ class QuienesSomos extends Component {
                   <h1 className="text-uppercase mb-4 text-light">
                     Nuestra Historia
                   </h1>
-                  <p className="text-light mb-4">
-                    <div key={data.id_nosotros}> </div>
-                    {data.historia}
-                  </p>
+                  <div className="text-light mb-4">
+                    <div key={data.id_nosotros}>
+                    {data.historia} </div>
+                  </div>
                   <a href="#equipo" className="btn boton-nosotros">
                     Mas
                   </a>
@@ -52,12 +58,13 @@ class QuienesSomos extends Component {
               </div>
               <div className="col-lg-7">
                 
-                <div className="container contener_imagen" key={data.id_nosotros}> </div>
+                <div className="container contener_imagen" > 
                 <img
+                key={data.id_nosotros}
                   src={data.imagen}
                   className="img-fluid rounded restaurante"
                   alt=""
-                />
+                /> </div>
               </div>
             </div>
           </div>

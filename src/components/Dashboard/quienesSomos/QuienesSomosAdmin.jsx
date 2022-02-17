@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import EditIcon from "@mui/icons-material/Edit";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "react-bootstrap/Modal";
-
+import swal from "sweetalert";
 import Button from "react-bootstrap/Button";
 
 class QuienesSomosAdmin extends Component {
@@ -43,9 +43,14 @@ class QuienesSomosAdmin extends Component {
     })
       .then((response) => response.json())
       .then((data) => {
-        alert("dato editado");
+        
         this.setState({ modalActualizar: false });
         this.fetchData();
+        swal({
+          icon: "success",
+          title: "¡Edición exitosa!",
+          text: "Nuestra historia se edito con exito.",
+        });
       });
   }
 

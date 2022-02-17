@@ -4,7 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import EditIcon from "@mui/icons-material/Edit";
-import { Delete, Edit} from "@material-ui/icons";
+import { Delete} from "@material-ui/icons";
+import swal from "sweetalert";
 
 class ContactAdmin extends Component {
   constructor(props) {
@@ -44,7 +45,11 @@ class ContactAdmin extends Component {
       .then((response) => response.json())
       .then((data) => {
         this.fetchData();
-        alert("Contacto eliminado");
+        swal({
+          icon: "success",
+          title: "¡Eliminación exitosa!",
+          text: "Tu contacto ha sido eliminado de la base de datos.",
+        });
       });
   }
 
@@ -58,9 +63,14 @@ class ContactAdmin extends Component {
     })
       .then((response) => response.json())
       .then((data) => {
-        alert("Contacto editado");
+        
         this.setState({ modalActualizar: false });
         this.fetchData();
+        swal({
+          icon: "success",
+          title: "Edición exitosa!",
+          text: "Tu contacto ha sido editado de la base de datos.",
+        });
       });
   }
 
@@ -154,7 +164,7 @@ class ContactAdmin extends Component {
         >
           <Modal.Title>Editar contacto</Modal.Title>
           <Modal.Body>
-            <label>Nombre contacto</label>
+            <label className="labelcontactoadmin">Nombre contacto</label>
             <input
               className="form-control"
               name="nombre"
@@ -162,7 +172,7 @@ class ContactAdmin extends Component {
               value={this.state.contacto.nombre}
               onChange={this.handleChange}
             />
-            <label>Email</label>
+            <label className="labelcontactoadmin">Email</label>
             <input
               className="form-control"
               name="email"
@@ -170,7 +180,7 @@ class ContactAdmin extends Component {
               value={this.state.contacto.email}
               onChange={this.handleChange}
             />
-            <label>Telefono</label>
+            <label className="labelcontactoadmin">Telefono</label>
             <input
               className="form-control"
               name="telefono"

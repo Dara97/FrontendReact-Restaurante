@@ -1,6 +1,6 @@
 import React from "react";
 import "./topbar.css";
-import { NotificationsNone, Language, Settings } from "@material-ui/icons";
+// import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 
 export default function Topbar() {
 
@@ -30,7 +30,7 @@ export default function Topbar() {
           />
           <button
             class="btn btn-dark btn-outline-dark cerrarSesion"
-            /* href="/menu" aria-current="page" */
+           
           >
             Cerrrar Sesión
           </button>

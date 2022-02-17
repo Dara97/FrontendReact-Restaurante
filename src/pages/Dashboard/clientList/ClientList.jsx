@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import "./clientList.css";
+import swal from "sweetalert";
 
 class ClientList extends Component {
   constructor(props) {
@@ -39,8 +40,12 @@ class ClientList extends Component {
     })
       .then((response) => response.json())
       .then((data) => {
+        swal({
+          icon: "success",
+          title: "¡Eliminación exitosa!",
+          text: "Tu empleado ha sido eliminado de la base de datos.",
+        });
         this.fetchData();
-        alert("Empleado eliminado");
       });
   }
 
@@ -54,7 +59,11 @@ class ClientList extends Component {
     })
       .then((response) => response.json())
       .then((data) => {
-        alert("Empleado editado");
+        swal({
+          icon: "success",
+          title: "¡Actualización exitosa!",
+          text: "Los datos de tu empleado han sido editados en la base de datos.",
+        });
         this.setState({ modalActualizar: false });
         this.fetchData();
       });
@@ -71,7 +80,11 @@ class ClientList extends Component {
     })
       .then((response) => response.json())
       .then((data) => {
-        alert("Empleado agregado");
+        swal({
+          icon: "success",
+          title: "¡Creación exitosa!",
+          text: "Un nuevo empleado ha sido agregado a tu base de datos.",
+        });
         this.setState({ modalInsertar: false });
         this.fetchData();
       });
@@ -104,21 +117,16 @@ class ClientList extends Component {
     return (
       <>
         <div className="row">
-    {/*       <button
-            class="btn btn-dark btn-outline-dark boton-agregar"
-            onClick={() => this.abrirVentanaInsertar()}
-          >
-            Agregar
-          </button> */}
+          w
           {this.state.datos.map((data) => (
             <div className={data.nombre} id={data.nombre}>
               <div className="featured">
                 <div className="featuredItem">
                   <div key={data.id}> </div>
                   <div>
-                    <h3 className="nombrespersonal">
+                    <h1>
                       {data.nombre} {data.apellido}
-                    </h3>
+                    </h1>
                   </div>
                   <br />
 

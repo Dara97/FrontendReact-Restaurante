@@ -35,7 +35,7 @@ export const Home = () => {
           <h1 className="title">Descubre nuestras especialidades</h1>
           <div className="row" style={{ flexWrap: "nowrap", justifyContent: "center" }}>
             {recomendados.map((data) => (
-              <Recomendados img={data.img} titulo={data.titulo}></Recomendados>
+              <Recomendados key={data} img={data.img} titulo={data.titulo}></Recomendados>
             ))}
           </div>
         </div>

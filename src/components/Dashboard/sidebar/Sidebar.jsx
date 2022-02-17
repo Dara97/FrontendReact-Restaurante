@@ -1,11 +1,8 @@
 import "./sidebar.css";
 import {
   LineStyle,
-  PermIdentity,
-  AttachMoney,
   AssignmentInd,
   RestaurantMenu,
-  AddAlertSharp,
   AssignmentTurnedIn,
   Contacts,
   Comment,

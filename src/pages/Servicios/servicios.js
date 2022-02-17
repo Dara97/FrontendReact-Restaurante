@@ -1,6 +1,6 @@
 import { HeaderServicios } from '../../components/HeaderServicios/headerServicios';
 import { ServiciosCard } from '../../components/servicioCard/serviciosCard';
-import serviciosData from '../../data/serviciosData.json';
+// import serviciosData from '../../data/serviciosData.json';
 import "./servicios.css";
 import React, { useEffect, useState, } from "react";
 export const Servicios = () => {

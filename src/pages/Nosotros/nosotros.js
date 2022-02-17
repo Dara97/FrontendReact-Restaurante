@@ -2,7 +2,7 @@ import { Personal } from "../../components/NosotrosPersonal/personal";
 import "./nosotros.css";
 import personal from "../../data/personal.json";
 import { Carrusel } from "../../components/Carrusel/Carrusel";
-import carruselTestimonios from "../../data/carruselTest.json";
+//  import carruselTestimonios from "../../data/carruselTest.json";
 import { useState } from "react";
 import { createRecord, useGet } from "../../api/crudActions";
 import QuienesSomos from "../../components/QuienesSomos/QuienesSomos";
@@ -14,11 +14,12 @@ const initialForm = {
 
 export const Nosotros = () => {
   let personalData = personal;
-  let carruselTest = carruselTestimonios;
+  // let carruselTest = carruselTestimonios;
 
   const [form, setForm] = useState({ ...initialForm });
   const [comments, setComments] = useState([]);
-  const { refetch } = useGet("Comentario", {
+  console.log(comments)
+  useGet("Comentario", {
     onCompleted: (data) => {
       const first6 =
         data.length > 6 ? data.reverse().slice(0, 6) : data.reverse();
@@ -62,6 +63,7 @@ export const Nosotros = () => {
           <div className="row ">
             {personalData.map((data) => (
               <Personal
+               key={data.id}
                 id={data.id}
                 img={data.img}
                 titulo={data.titulo}

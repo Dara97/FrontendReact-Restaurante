@@ -3,7 +3,7 @@ import Topbar from "../../components/Dashboard/topbar/Topbar";
 import "./Dashboard.css";
 import Inicio from "./Inicio/Inicio";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import UserList from "./userList/UserList";
+// import UserList from "./userList/UserList";
 import ClientList from "./clientList/ClientList";
 import ProductList from "./productList/ProductList";
 import ContactAdmin from "./Contact/ContactAdmin";
